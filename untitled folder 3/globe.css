@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+ 
+  font-size: 17px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: orangered;
+  z-index: 10;
+}
+
+main {
+  width: 1024px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav main {
+  padding-top: 0px;
+}
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+nav main a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+nav .selalukananatas {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: royalblue;
+  border-radius: 15px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+section.full {
+  background-image:url("../typography_77.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.full4 {
+  background-image:url("../text formarting.gif");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.full6 {
+  background-image:url("../unnamed.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.full7 {
+  background-image:url("../email.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.full8 {
+  background-image:url("../black and white.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.full9 {
+  background-image:url("../center.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section.full10 {
+  background-image:url("../colom.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+section .left {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+section .right {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+section .melayang {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  width: 25%;
+  height: 200px;
+  /*background-color: pink;*/
+	font color: white
+}
+section .melayang2 {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 40%;
+  height: 200px;
+  /*background-color: pink;*/
+	font color: white
+}
+/**/
+
+h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+padding-bottom: 0pt
+}
+
+@media (max-width: 1024px) {
+  main {
+    width: 100vw;
+  }
+  
+  section .left, section .right {
+    width: 100%;
+    height: 50vh;
+  }
+  
